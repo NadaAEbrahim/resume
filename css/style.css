@@ -1,0 +1,452 @@
+/* Main Css */
+body{
+	background:#FFF;
+	height: 4000px;
+}
+.container{
+	width:1150px;
+	margin:auto;
+}
+.clearfix{
+	clear:both;
+}
+
+/* end Main Css */
+
+/* Header Css */
+.header .slider{
+	background-image:url(../images/digital-marketing-agency-large-1170x600.jpg);
+	background-size:cover; /* css3*/
+	height:500px;
+}
+.header .slider .intro{
+	height:600px;
+	padding-top:180px;
+	text-align:center;
+	color:#FFF;
+	text-transform:uppercase;
+}
+.header .slider .intro h2{
+	margin:0 auto;
+	font-size:50px;
+	width:700px;
+	border-bottom:4px solid #FFF;
+	border-top:4px solid #FFF;
+	padding:5px 0;
+}
+
+.header .slider .intro button {
+	background:none;
+	font-size:20px;
+	border: 2px solid #FFF;
+	font-weight:bold;
+	padding: 10px 20px;
+	margin-top:30px;}
+.header .navbar{
+	background:#252F31;
+	color:#FFF;
+	overflow:hidden;
+}
+.header .navbar h2{
+	float:left;
+	text-transform:uppercase;
+}
+.header .navbar h2 span{
+	color:#28CF7D;
+}
+.header .navbar ul{
+	list-style:none;
+	padding-left:0;
+	overflow:hidden;
+	float:right;
+}
+.header .navbar ul li{
+	float:left;
+	padding:10px;
+}
+
+.header .navbar ul li a {
+	color:#FFF;
+	text-decoration:none;
+}
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover{
+	color:#159D55;} 
+/* end header Css */
+
+/* Feature Css */
+.feature{
+	overflow:hidden;
+	padding-top:40px;
+	padding-bottom:55px;
+}
+.feature .feat{
+	float:left;
+	width:33.33333%;
+	height:150px;
+}
+	
+.feature .feat h2{
+	color:#444;
+	text-align:center;
+}
+
+.feature .feat p{
+	line-height:1.7;
+	color:#888;
+}
+/* End feature Css */
+
+/* About me Css */
+.about{
+	background:#F2F2F2;
+	overflow:hidden;
+}
+.about .image{
+	float:left;
+	width:40%;
+}
+.about .image img{
+	width:82%;
+	border-radius:10%;
+}
+
+.about .info{
+	width:60%;
+	float:left;
+	
+}
+.about .info h2{
+	margin:20px 0 20px 10px;
+	color:#555;
+}
+.about .info > p{
+	margin:0 0 10px 10px;
+}
+.about .info > p:last-of-type{
+	margin-top:15px;
+}
+.about .info p{
+	color:#666;
+	line-height:1.5;
+}
+.about .info .hobbies{
+	overflow:hidden;
+	margin:15px 30px 0px 20px;
+}
+.about .info .hobbies .content{
+	float:left;
+	width:50%;
+	min-height:100px;
+	overflow:hidden;
+}
+.about .info .hobbies .content h3{
+	color:#555;
+}
+.about .info .hobbies .content .icon{
+	float:left;
+	width:12%;
+	margin-right:5%}
+.about .info .hobbies .content .icon img{
+	max-width:100%;
+	margin:20px 10px 0 0;
+}
+.about .info .hobbies .content .text{
+	float:left;
+	width:83%}
+
+/* End About me Css */
+
+/* My Skills Css */
+.my-skills{
+	padding-top:30px;
+	padding-bottom:50px;
+	overflow:hidden;
+}
+.my-skills .skills,
+.my-skills .progress{
+	float:left;
+	width:50%;
+}
+.my-skills .skills h2{
+	margin:20px 0 20px 20px;
+	color:#555;
+}
+.my-skills .skills p{
+	margin:0 0 10px 20px;
+	color:#666;
+	line-height:1.5;
+}
+.my-skills .skills p:last-of-type{
+	margin-top:30px;
+}
+.my-skills .skills button{
+	background:none;
+	padding:10px 30px;
+	color:#28CF7D;
+	border:3px solid #28CF7D;
+	margin-top:40px;
+	margin-left:20px;
+}
+.my-skills .progress .technique{
+	margin-left:50px;
+}
+.my-skills .progress .technique h3{
+	color:#555;
+}
+.my-skills .progress .technique div{
+	background:#F2F2F1;
+	height:20px;
+	border:1px solid #2ECC71;
+}
+.my-skills .progress .technique div span{
+	background:#2ECC71;
+	height:20px;
+	display:block;
+	color:#FFF;
+	line-height:20px;
+	text-align:right;
+	font-weight:bold;
+}
+	
+/* End My skills Css */
+
+/* Resume Css */
+.resume {
+	background:#F2F2F2;
+	padding-top:50px;
+	padding-bottom:70px;
+	text-align:center;
+}
+.resume h2{
+	color:#666;
+	font-weight:bold;
+}
+.resume p{
+	line-height:1.7;
+	color:#666;
+	margin:0px 40px;
+}
+.resume button{
+	margin-top:20px;
+}
+/* End resume Css */
+
+/* My education Css */
+.my-education{
+	padding-top:30px;
+	padding-bottom:30px;
+	overflow:hidden;
+}
+.my-education hr{
+	margin:20px 0;
+	background:#999;
+	height:1px;
+	border:0;
+}
+.my-education .main{
+	float:left;
+	margin-right:5%;
+	width:50%;
+}
+
+.my-education .main h2{
+	margin:20px 0 20px 20px;
+	color:#555;
+}
+.my-education .main p{
+	margin:0 0 10px 20px;
+	color:#666;
+	line-height:1.5;
+}
+.my-education .main p:last-of-type{
+	margin-top:30px;
+}	
+.my-education .exp{
+	float:left;
+	width:45%;
+}
+.my-education .exp h3{
+	color:#555;
+	margin-top:80px;
+	margin-bottom:10px;
+}
+.my-education .exp span{
+	display:block;
+	margin-bottom:10px;
+}	
+.my-education .exp span:first-of-type{
+	color:#999;
+}
+.my-education .exp span:last-of-type{
+	background:#2ECC71;
+	color:#FFF;
+	display:inline-block;
+	padding:4px 10px;
+}
+
+.my-education .exp p{
+	line-height:1.7;
+	color:#777;
+}
+/* End My education Css */
+
+/* testemonials Css */
+.Testemonials {
+	background:#F2F2F2;
+	padding-top:50px;
+	padding-bottom:50px;
+	text-align:center;
+}
+.Testemonials q{
+	line-height:1.8;
+	font-size:18px;
+	font-weight:bold;
+	color:#888;
+	font-style:italic;
+}
+.Testemonials h3{
+	color:#777;
+	margin-bottom:30px;
+}
+.Testemonials ul{
+	list-style:none;
+	padding-left:0;
+	text-align:center;
+}
+.Testemonials ul li{
+	border:2px solid #2ECC71;
+	width:15px;
+	height:15px;
+	display:inline-block;
+}
+.Testemonials ul li.active,
+.Testemonials ul li:hover{
+	background:#2ECC71;
+	cursor:pointer;
+}
+/* End testemonials Css */
+
+/* Portfollio Css */
+.portfollio{
+	padding-top:50px;
+	padding-bottom:70px;
+	text-align:center;
+}
+.portfollio h2{
+	color:#777;
+}
+.portfollio p{
+	line-height:1.7;
+	color:#666;
+	margin-bottom:30px;
+}
+.portfollio .our-work{
+	overflow:hidden;
+}
+.portfollio .our-work > div{
+	float:left;
+	width:33.33333%;
+	margin-bottom:10px;
+}
+.portfollio .our-work > div img{
+	width:92%;
+	margin:10px;
+	padding:3px;
+	border:1px solid #ccc;
+	background:#FFF;}
+/* end Portfollio Css */
+
+/* contact me Css */
+.contact{
+	background:#252F31;
+	padding-top:30px;
+	padding-bottom:30px;
+	overflow:hidden;
+	}
+.contact .info{
+	width:50%;
+	float:left;
+	margin-right:5%;
+}
+.contact .info h2{
+	color:#FFF;
+	margin-left:40px;
+}
+.contact .info p{
+	color:#919191;
+	margin-left:40px;
+	line-height:1.8;
+}
+.contact .info p strong{
+	color:#D1D6DA;
+}
+.contact .form{
+	float:left;
+	width:45%;
+	padding-top:10px;
+}
+.contact .form label{
+	display:block;
+	color:#D1D6DA;
+	margin:10px 0;
+}
+.contact .form input[type="text"]{
+	background:#4B5557;
+	color:#FFF;
+	padding:10px;
+	border:0;
+	width:150%;
+	margin-bottom:10px;
+}
+.contact .form textarea{
+	background:#4B5557;
+	color:#FFF;
+	padding:10px;
+	border:0;
+	width:150%;
+	margin-bottom:10px;
+	height:250px;
+}
+.contact .form input[type="submit"]{
+	background:#191E22;
+	color:#FFF;
+	border:0;
+	padding:10px 15px;
+	margin-top:20px;
+}
+
+/* end contact me Css */
+
+/* footer Css */
+.footer{
+	background:#191E22;
+	padding:20px 0;
+	text-align:center;
+	color:#FFF;
+}
+.footer ul{
+	list-style:none;
+	padding-left:0px;
+	margin:0px 0 0;
+}
+.footer ul li{
+	display:inline-block;
+}
+.footer ul li img{
+	padding:10px 10px 0 0;
+	width:28px;
+}
+
+/* end footer Css */
+
+/* My Framework*/
+
+.my-button{
+	background:none;
+	padding:10px 30px;
+	color:#28CF7D;
+	border:3px solid #28CF7D;
+}
+
+/*end my framework*/
